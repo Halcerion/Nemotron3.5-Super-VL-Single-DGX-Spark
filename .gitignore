@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+cache/
+results/bench-raw-*.json
+results/*.log

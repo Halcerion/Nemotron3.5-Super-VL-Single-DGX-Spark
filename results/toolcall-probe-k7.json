@@ -1,0 +1,104 @@
+{
+  "_meta": {
+    "max_tokens": 1024,
+    "thinking_on": true,
+    "runs": 3,
+    "kit": "halcerion-nemotron35-spark-kit"
+  },
+  "toolcall": {
+    "runs": [
+      {
+        "wall_s": 3.66,
+        "finish_reason": "tool_calls",
+        "content_chars": 0,
+        "reasoning_chars": 0,
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "args": "{\"city\": \"Tulsa\", \"unit\": \"c\"}"
+          }
+        ],
+        "completion_tokens": 158,
+        "clean": true
+      },
+      {
+        "wall_s": 3.76,
+        "finish_reason": "tool_calls",
+        "content_chars": 0,
+        "reasoning_chars": 0,
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "args": "{\"city\": \"Tulsa\", \"unit\": \"c\"}"
+          }
+        ],
+        "completion_tokens": 153,
+        "clean": true
+      },
+      {
+        "wall_s": 2.98,
+        "finish_reason": "tool_calls",
+        "content_chars": 0,
+        "reasoning_chars": 0,
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "args": "{\"city\": \"Tulsa\", \"unit\": \"c\"}"
+          }
+        ],
+        "completion_tokens": 158,
+        "clean": true
+      }
+    ],
+    "clean_runs": 3,
+    "median_wall_s": 3.66
+  },
+  "repetition": {
+    "runs": [
+      {
+        "wall_s": 8.31,
+        "finish_reason": "tool_calls",
+        "content_chars": 0,
+        "reasoning_chars": 0,
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "args": "{\"city\": \"New York City\", \"unit\": \"f\"}"
+          }
+        ],
+        "completion_tokens": 360,
+        "clean": true
+      },
+      {
+        "wall_s": 4.95,
+        "finish_reason": "tool_calls",
+        "content_chars": 0,
+        "reasoning_chars": 0,
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "args": "{\"city\": \"New York City\", \"unit\": \"f\"}"
+          }
+        ],
+        "completion_tokens": 226,
+        "clean": true
+      },
+      {
+        "wall_s": 9.59,
+        "finish_reason": "tool_calls",
+        "content_chars": 0,
+        "reasoning_chars": 0,
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "args": "{\"city\": \"New York City\", \"unit\": \"f\"}"
+          }
+        ],
+        "completion_tokens": 432,
+        "clean": true
+      }
+    ],
+    "clean_runs": 3,
+    "median_wall_s": 8.31
+  }
+}
